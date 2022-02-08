@@ -1,0 +1,24 @@
+@import url("https://use.typekit.net/wkr7eeb.css");
+
+body {
+  font-family: 'linotype-didot', serif;
+  font-weight: 700;
+  font-size: 7rem;
+  background-image: url('https://wallpaperaccess.com/full/2413558.jpg');
+  color: white;
+}
+
+.body_txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 40vh;
+}
+
+.right_arrow {
+  color: white;
+  width: 2vw;
+  height: auto;
+}

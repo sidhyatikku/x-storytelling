@@ -1,0 +1,54 @@
+@import url("https://use.typekit.net/wkr7eeb.css");
+
+body {
+  font-family: 'linotype-didot', serif;
+  font-size: 2rem;
+  font-weight: 400;
+  background-image: url('https://wallpaperaccess.com/full/2413558.jpg');
+  color: white;
+}
+
+.body_txt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vh;
+}
+
+.story_title {
+  margin-top: 10vh;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 15vh;
+  margin-left: 10vw;
+}
+
+.story_para {
+  margin-bottom: 8vh;
+}
+
+.media_link {
+  color: white;
+  margin-left: 10vw;
+}
+
+.media_link:hover {
+  color: yellow;
+  animation-timing-function: ease-in-out;
+}
+
+.story_text {
+  margin-left: 3vw;
+  margin-right: 35vw;
+}
+
+.right_arrow,.left_arrow {
+  color: white;
+  width: 1.75vw;
+  height: auto;
+}
+.right_arrow:hover,.left_arrow:hover {
+  fill: yellow;
+}

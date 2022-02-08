@@ -1,0 +1,50 @@
+@import url("https://use.typekit.net/wkr7eeb.css");
+
+body {
+  font-family: 'linotype-didot', serif;
+  font-weight: 700;
+  font-size: 7rem;
+  background-image: url('https://wallpaperaccess.com/full/2413558.jpg');
+  color: white;
+}
+
+.body_txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 40vh;
+}
+
+.left_arrow {
+  color: white;
+  width: 2vw;
+  height: auto;
+}
+
+.intro_title {
+  color: white;
+  text-decoration: none;
+}
+
+#blur-around {
+  position: fixed;
+  z-index: 999;
+  /* twice the viewport size so it always covers fully */
+  width: 200vw;
+  height: 200vh;
+  /* negative offset by half so we are sure we cover the full viewport */
+  left: -100vw;
+  top: -100vh;
+  /* we'll use transform translate to move it */
+  transform-origin: center;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+/* falback for browsers that dont have backdrop-filter */
+@supports not ((backdrop-filter: blur(0px)) or (-webkit-backdrop-filter: blur(0px))) {
+  #blur-around {
+    background-color: rgba(255,255,255,.8);
+  }
+}
